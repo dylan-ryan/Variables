@@ -23,12 +23,12 @@ namespace Variables
             string GamerTag;
             float percentile;
 
-
+            
             score = 0;
             enemyValue = 200;
             realName = "Dylan Ryan";
             GamerTag = "gamertag";
-            percentile = 85.543f;
+            percentile = 85.54f;
             score = score + enemyValue;
             
             
