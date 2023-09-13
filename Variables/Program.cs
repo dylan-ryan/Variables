@@ -14,13 +14,29 @@ namespace Variables
             Console.WriteLine("----------------");
             Console.WriteLine();
 
+            //int = interger whole numbers
+            //string = text
+
             int score;
+            int enemyValue;
+            string realName;
+            string GamerTag;
+            float percentile;
 
             score = 0;
+            enemyValue = 200;
+            realName = "Dylan Ryan";
+            GamerTag = "gamertag";
+            percentile = 85.543f;
 
-            score = score + 100;
+            
+            
+            score = score + enemyValue;
 
+
+            Console.WriteLine(realName + " (" + GamerTag + ")");
             Console.WriteLine("Score: " + score);
+            Console.WriteLine("Percentile Rank: " + percentile + "%");
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit");
