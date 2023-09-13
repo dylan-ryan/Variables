@@ -16,6 +16,9 @@ namespace Variables
 
             int score;
 
+            score = 0;
+
+            Console.WriteLine(score);
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit");
